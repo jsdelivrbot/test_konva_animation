@@ -11,6 +11,8 @@ var layer = new Konva.Layer();
 
 var rectangle = new Konva.Rect({
 
+  x: 50,
+  y: 50,
   width: 100,
   height: 100,
   fill: 'red',
@@ -22,8 +24,8 @@ stage.add(layer);
 
 var yPos = rectangle.getAttr('y'),
     xPos = rectangle.getAttr('x'),
-    maxX = 365,
-    maxY = 365,
+    maxX = 86,
+    maxY = 86,
     speed = 10,
     yIncrease = true,
     xIncrease = true;
